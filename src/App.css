@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 400px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 3px solid  black;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 20px;
+  
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+.weather-info {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #d5f3f8;
+}
+
+.weather-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.weather-info p {
+  margin: 5px 0;
+}
